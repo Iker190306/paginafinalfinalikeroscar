@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica Brazo Robotico | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">"Brazo robot"</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/iker1.jpg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Iker López Bonilla</div>
+                                <div class="text-muted">Ing. Mecatrónica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                        <img class="img-fluid rounded-circle" width="50px" src="assets/oscar.jpg" alt="..." />
+                        <div class="ms-2">
+                            <div class="fw-bold">Oscar Emanuelle Garrido Javalera</div>
+                            <div class="text-muted">Ing. Mecatrónica</div>
+                        </div>
+                    <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Septiembre 20, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Componentes</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="400px" src="img/brazo.jpeg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">En esta práctica, la cual utilizó más de una clase, logramos crear un brazo robot capaz de levantar y trasladar una pelota.</p>
+                        <p class="fs-6 mb-4">La práctica fue realizada con la orientación de nuestro profesor Huber Girón Nieto.</p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Después de haber realizado las prácticas anteriores, era el momento de poner en práctica nuestros conocimientos sobre el uso de servomotores y arduinos.</p>
+                        <p class="fs-6 mb-4">La asignación fue diseñar un brazo robot, el cual pudiese sujetar una pelota pequeña para moverla hacia otro brazo.</p>
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">Los materiales utilizados para la creación del brazo fueron los siguientes:</p>
+                        <p class="fs-6 mb-4">Dos servomotores MG995 (motores grandes) para la rotación de la base y la articulación del brazo principal, dos servomotores SG90 (motores pequeños) para la articulación del brazo chico y la articulación de la garra, una computadora para programar el código de los motores, un arduino para insertar dicho código (el cual se conecta en la computadora), cuatro potenciómetros para manipular el movimiento de los motores, cables para unir los potenciómetros a los servomotores, cinta para agrupar los cables, una fuente de energía para alimentar al brazo, tornillos y tuercas para asegurar las piezas, además de cortes con láser sobre madera con los diseños de la base principal, la base del brazo, el brazo principal, el brazo chico y la garra.</p>
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">Iniciamos tomando las medidas exactas de los servomotores para tener una idea para la planeación del brazo. Continuamos diseñando las piezas del brazo en el software SOLIDWORKS utilizando las medidas de los servomotores. Empezamos creando la base principal, la cual sujetaría al brazo completo por medio de cuatro tornillos. Después, diseñamos la base que reotaría al brazo, implementandole un hueco en el centro con la medida de un servomotor grande para que realizara la acción deseada. Al terminar la base, continuamos con el brazo principal, igualmente con un espacio para un servomotor grande. Seguimos con el diseño del brazo chico, ahora con un espacio para un servomotor chico. Por último, creamos una garra, la cual utilizaría un último motor chico para soportar el peso de la pelota.</p>
+                        <p class="fs-6 mb-4">Después de varias pruebas y errores, conseguimos el diseño adecuado con el tamaño exacto de las piezas. Procedimos a guardar las piezas como archivos DXF para mandarlos la cortadora láser. Al terminar el corte, el cual tardó aproximadamente diez minutos, empezamos a programar el código que el arduino almacenaría para poder manipular a los servomotores. Después de terminar el código, empezamos a armar el circuito en el protoboard, implementando los potenciómetros y los motores con el uso de cables. Al terminar el circuito, hicimos varios cambios al código y a la parte física para que el resultado final funcionara correctamente.</p>
+                        <p class="fs-6 mb-4">Con el circuito terminado y el código funcionando, procedimos a unir las piezas de madera  con los servomotores, con la esperanza de que los motores coincidieran con sus espacios asignados en los cortes de madera. Al comprobar que todas las piezas encajaran perfectamente, las atornillamos y las aseguramos con tuercas.</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="800px" src="img/potencio.jpeg" alt="..." /></figure>
+                        
+                        <p id="simulacion">
+                        <h1 class="fw-bolder2 mb-4 mt-5 fs-5">- Simulación</h1>
+                        <p class="fs-6 mb-4">Llegado el día de la entrega, nuestro profesor nos asignó la tarea de pasar una pelota de un brazo a otro, como un circuito. Mientras más brazos participaran en un solo circuito, mejor, siendo cinco brazos el mejor resultado.</p>
+                        <p class="fs-6 mb-4">Comenzamos a ajustar y afinar los movimientos de nuestro brazo para participar en un circuito. Primero, recibimos la pelota de otro brazo, confirmando que era posible que nuestro brazo participara en un circuito más largo.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/videobrazocorto.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">Después unos cuarenta minutos, logramos hacer un cambio entre tres brazos, asegurando un buen progreso.</p>
+                        <p class="fs-6 mb-4">Finalmente, después de unas 2 horas, logramos realizar un circuito de cinco brazos, logrando el objetivo principal.</p>
+                        <figure class="mb-4" align="center"><video width="1000px%"  controls>
+                            <source src="video/videobrazolargo_.mp4" type="video/mp4">
+                        </video></p></figure>
+                    
+                        <p id="diseño">
+                        <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
+                        <p class="fs-6 mb-4">El diseño del brazo, a pesar de lucir simple, fue bastante funcional, pues nunca ocasionó error alguno sobre la falta de soporte o un mal armado.</p>
+                        <p class="fs-6 mb-4">El brazo cuenta con una base con forma de cruz, la cual logró distribuir el peso de una forma equivalente. Los cuatro tronillos con los que se sujetaba al brazo estaban bien asegurados, permitiendo estabilidad. La base giratoria era de un tamaño reducido para evitar choques o atasques. El brazo principal estaba inclinado ligeramente hacia atras para distribuir equitativamente el peso de la garra. El brazo chico contaba con un tamaño más alargado para servir como la parte superior de la garra. Por ultimo, la ultima pieza servía como la parte inferior de la garra, la cual incluía una punta similar a un diente, la cual permitía un mejor agarre de la pelota en caso de que no entrase completamente en el espacio asignado para sujetar objetos.</p>
+                        <p class="fs-6 mb-4">Por otro lado, los componentes electrónicos se encontraban ordenados de manera que pudiese ser claro el movimiento de los potenciómetros con su respectivo servomotor. Los cables se encontraban agrupados gracias al uso de cinta aislante.</p>
+                            
+                        <p id="construccion">
+                        <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                        <p class="fs-6 mb-4">El modelo final del brazo fue creado con material nuestro y de la universidad. La universidad nos proporcionó los potenciómetros, la fuente de energía, la madera, la cinta y los servomotores. Nosotros conseguimos los cables, el arduino y el protoboard.</p>
+                        <p class="fs-6 mb-4">La construcción se realizó con nuestras herramientas.</p>
+                            
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">Con el código activado en el arduino, el brazo logró rotar la distancia deseada según el usuario indicara con el potenciómetro.</p>
+                        <p class="fs-6 mb-4">Ninguna de las partes del brazo presentó fallos al administrarle energía. La garra logró sujetar la pelota sin fallas y no la soltó hasta que se le indicó.</p>
+                        
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">Se logró emplear los conocimientos aprendidos en las clases anteriores en la creación de un brazo robot, el cual logró cumplir la función de agarrar una pelota por medio de una garra.</p>
+                        <p class="fs-6 mb-4">El proyecto fue una excelente oportunidad para poner en práctica habilidades como la programación y el trabajo con motores. Aunque el brazo solo realiza una tarea simple, crea las bases para desarrollar aplicaciones más complejas.</p>
+                        <p class="fs-6 mb-4">En resumen, fue un proyecto exitoso que combinó teoría y práctica, el cual proporcionó experiencia para futuros trabajos.</p>
+                        
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Arduino - home. (s. f.). https://www.arduino.cc/</p>
+                        <p class="fs-6 mb-4">alldatasheet.es. (n.d.). SG90 Datasheet(PDF). List of Unclassifed Manufacturers. https://www.alldatasheet.es/datasheet-pdf/pdf/1572383/ETC/SG90.html</p>
+                        <p class="fs-6 mb-4">alldatasheet.com. (n.d.). MG996R Datasheet(PDF). List of Unclassifed Manufacturers. https://www.alldatasheet.com/datasheet-pdf/pdf/1131873/ETC2/MG996R.html</p>
+
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

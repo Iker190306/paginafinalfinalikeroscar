@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica Brazo robot con Bluetooth | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../index.html#home"">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">"Brazo robot con Bluetooth"</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/iker1.jpg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Iker López Bonilla</div>
+                                <div class="text-muted">Ing. Mecatrónica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                        <img class="img-fluid rounded-circle" width="50px" src="assets/oscar.jpg" alt="..." />
+                        <div class="ms-2">
+                            <div class="fw-bold">Oscar Emanuelle Garrido Javalera</div>
+                            <div class="text-muted">Ing. Mecatrónica</div>
+                        </div>
+                    <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Noviembre 26, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Componentes</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="400px" src="img/brazorobot.jpg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">En esta práctica, modificamos nuestro brazo robótico de madera para poder controlarlo desde el celular utilizando una aplicación propia.</p>
+                        <p class="fs-6 mb-4">La práctica fue realizada con la orientación de nuestro profesor Huber Girón Nieto.</p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Después de que el brazo robótico funcionara correctamente con los potenciometros, los sustituimos por un sistema de control remoto a través de una aplicación que desarrollamos nosotros mismos para el celular.</p>
+                        <p class="fs-6 mb-4">Esto permitió que el brazo pudiera ser controlado desde una mayor distancia.</p>
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">Los materiales utilizados para la modificación del brazo fueron los siguientes:</p>
+                        <p class="fs-6 mb-4">El brazo robótico de madera, un Arduino, un módulo HC-05 (Bluetooth) para el celular, un celular para control remoto y una laptop para crear la aplicación.</p>
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">Comenzamos desmontando los circuitos del brazo robótico para retirar los potenciometros.</p>
+                        <p class="fs-6 mb-4">Luego, accedimos a la plataforma MIT App Inventor para crear una interfaz de usuario y un código basado en bloques que nos permitiera controlar el brazo a través de botones virtuales. Posteriormente, programamos el Arduino con un código que le permitiera recibir las señales enviadas desde la aplicación móvil.</p>
+                        <p class="fs-6 mb-4">Finalmente, ensamblamos de nuevo el brazo robótico con el módulo Bluetooth HC-05 ya integrado.</p>
+                        
+                        <p id="simulacion">
+                        <h1 class="fw-bolder2 mb-4 mt-5 fs-5">- Simulación</h1>
+                        <p class="fs-6 mb-4">Al terminar de ensamblar lo necesario, encendimos nuestra computadora y abrimos la pagina de la aplicacion para pasarla al celular. Una vez que el celular contaba con la aplicacion, se conectó al módulo HC-05.</p>
+                        <p class="fs-6 mb-4">Ya que estaba activado, presionamos los botones del celular, lo que activó el movimiento de la garra y del brazo.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/videobrazorobot.mp4" type="video/mp4">
+                        </video></p></figure>
+                    
+                        <p id="diseño">
+                        <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
+                        <p class="fs-6 mb-4">El diseño del brazo fue el mismo del anterior, pero funcionaba correctamente.</p>
+                        <p class="fs-6 mb-4">El módulo se encontraba en una ubicación adecuada para no interferir con los movimientos.</p>
+                            
+                        <p id="construccion">
+                        <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                        <p class="fs-6 mb-4">El modelo final del brazo fue creado con material nuestro y de la universidad.</p>
+                        <p class="fs-6 mb-4">La construcción se realizó con nuestras herramientas.</p>
+                            
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">Con el código activado en el arduino, el brazo logró rotar la distancia deseada según el usuario indicara con el celular.</p>
+                        <p class="fs-6 mb-4">Ninguna de las partes del brazo presentó fallos al administrarle energía. El brazo se movía sin retraso.</p>
+                        
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">Se logró emplear los conocimientos aprendidos en las clases anteriores al modificar el brazo.</p>
+                        <p class="fs-6 mb-4">En resumen, fue un proyecto exitoso que nos esneñó los fundamentos básicos de la conexión por Bluetooth.</p>
+                        
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Arduino - home. (s. f.). https://www.arduino.cc/</p>
+                        <p class="fs-6 mb-4">alldatasheet.es. (n.d.). SG90 Datasheet(PDF). List of Unclassifed Manufacturers. https://www.alldatasheet.es/datasheet-pdf/pdf/1572383/ETC/SG90.html</p>
+                        <p class="fs-6 mb-4">alldatasheet.com. (n.d.). MG996R Datasheet(PDF). List of Unclassifed Manufacturers. https://www.alldatasheet.com/datasheet-pdf/pdf/1131873/ETC2/MG996R.html</p>
+                        <p class="fs-6 mb-4">Configuración  del módulo bluetooth HC-05 usando comandos AT. (s. f.). Naylamp Mechatronics - Perú. https://naylampmechatronics.com/blog/24_configuracion-del-modulo-bluetooth-hc-05-usando-comandos-at.html</p>
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
